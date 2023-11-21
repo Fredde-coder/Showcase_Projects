@@ -4,9 +4,8 @@
 
 ## Prerequisite
 Configure the .env file with the following values:
-    - REACT_APP_API_TOKEN: Replace with your API token.
-    - REACT_APP_API_ENDPOINT: Replace with the endpoint URL of the Flask_API.
-
+- `REACT_APP_API_TOKEN=api-token`: Replace with your API token.
+- `REACT_APP_API_ENDPOINT=Flask-api-endpoint`: Replace with the endpoint URL of the Flask_API.
 
 ## Getting Started
 
