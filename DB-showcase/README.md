@@ -17,7 +17,7 @@ Configure the .env file with the following values according to your desire for t
   - project_technologies: Stores the relationship between projects and technologies.
   
  * The script also inserts initial projects into the programming_genres and projects tables.
- * 
+   
  * @file db/init.sql
 
 ## Running the project with Docker
