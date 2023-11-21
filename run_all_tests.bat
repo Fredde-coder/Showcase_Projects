@@ -1,13 +1,13 @@
 @echo off
 
 REM Navigate to the db service directory and run its tests
-cd db
+cd DB-showcase
 python -m unittest discover
 
 REM Navigate to the web backend service directory and run its tests
-cd ..\Flask_Restful
+cd ..\Flask-restful-showcase
 python -m unittest discover
 
 REM Navigate to the showcase-projects directory and run npm test
-cd ..\showcase-projects
+cd ..\React-showcase
 npm test -- --watchAll=false
