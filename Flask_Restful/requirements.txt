@@ -1,0 +1,6 @@
+Flask
+Flask-RESTful
+flask_testing
+flask-cors
+mysql-connector-python
+python-dotenv

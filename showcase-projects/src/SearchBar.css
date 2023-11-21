@@ -1,0 +1,49 @@
+/* CSS - frontend/src/SearchBar.css */
+.search-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.result-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+.SearchBar {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.SearchBar input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.SearchBar button {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+}
+
+.SearchBar button:hover {
+  background-color: #282c34;
+}
