@@ -1,4 +1,12 @@
+
+
 # Frontend for showcase projects
+
+## Prerequisite
+Configure the .env file with the following values:
+    - REACT_APP_API_TOKEN: Replace with your API token.
+    - REACT_APP_API_ENDPOINT: Replace with the endpoint URL of the Flask_API.
+
 
 ## Getting Started
 

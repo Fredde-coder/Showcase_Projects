@@ -21,7 +21,8 @@ These instructions will get you a copy of the project up and running on your loc
     ```bash
     cd Showcase_Project
     ```
-3. Build and run the Docker containers:
+3. You need to configure all of the environment variables in .env described in the Readme.md of each service folder
+4. Build and run the Docker containers:
     ```bash
     docker-compose up --build
     ```

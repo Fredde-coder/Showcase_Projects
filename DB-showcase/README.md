@@ -1,4 +1,12 @@
 # Database server for the showcase projects
+
+## Prerequisite
+Configure the .env file with the following values according to your desire for the database:
+    - MYSQL_USER=your_mysql_user
+    - MYSQL_PASSWORD=your_mysql_password
+    - MYSQL_ROOT_PASSWORD=your_mysql_root_password
+    - MYSQL_DATABASE=your_mysql_database
+
 ## Database structure
 /**
  * The database initializes with the following tables:
