@@ -8,19 +8,17 @@ Configure the .env file with the following values according to your desire for t
 - `MYSQL_DATABASE=your_mysql_database`
 
 ## Database structure
-/**
  * The database initializes with the following tables:
- * 
- * - programming_genres: Stores programming genres with their IDs and names.
- * - programming_sub_genres: Stores programming sub-genres with their IDs, names, and parent genre IDs.
- * - technologies: Stores technologies with their IDs and names.
- * - projects: Stores projects with their names, descriptions, image paths, genre IDs, and years.
- * - project_technologies: Stores the relationship between projects and technologies.
- * 
+  
+  - programming_genres: Stores programming genres with their IDs and names.
+  - programming_sub_genres: Stores programming sub-genres with their IDs, names, and parent genre IDs.
+  - technologies: Stores technologies with their IDs and names.
+  - projects: Stores projects with their names, descriptions, image paths, genre IDs, and years.
+  - project_technologies: Stores the relationship between projects and technologies.
+  
  * The script also inserts initial projects into the programming_genres and projects tables.
  * 
  * @file db/init.sql
- */
 
 ## Running the project with Docker
 
