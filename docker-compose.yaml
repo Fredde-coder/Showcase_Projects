@@ -1,15 +1,15 @@
 version: '3.1'
 services:
   db:
-    build: ./db
+    build: ./DB-showcase
     env_file: 
-      - ./db/.env
+      - ./DB-showcase/.env
     ports:
       - 3306:3306
   web:
-    build: ./Flask_Restful
+    build: ./Flask-restful-showcase
     env_file: 
-      - ./Flask_Restful/.env
+      - ./Flask-restful-showcase/.env
     volumes:
       - .:/code
     ports:
@@ -17,11 +17,11 @@ services:
     depends_on:
       - db
   react:
-    build: ./showcase-projects
+    build: ./React-showcase
     ports:
       - "80:80"
     env_file: 
-      - ./showcase-projects/.env
+      - ./React-showcase/.env
     depends_on:
       - web
 
