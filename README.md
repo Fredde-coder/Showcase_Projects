@@ -1,6 +1,7 @@
 # Showcase_Projects
-
-This project uses Docker and Docker Compose for easy setup and deployment. It also includes a suite of unit tests for validating functionality.
+This project aims to create a web page that showcases my projects. It sets up three services a react frontend, a flask restful API backend and a MySQL server for it to query for data.
+It could of course be simpler and only use react, but there is some advanced functionality to be deployed later on that would be more difficult and this project is also a showcase
+in itself and therefore aims to include multiple components to showcase my competencies.
 
 ## Getting Started
 
