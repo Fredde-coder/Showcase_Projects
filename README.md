@@ -1,4 +1,4 @@
-# Showcase_Project
+# Showcase_Projects
 
 This project uses Docker and Docker Compose for easy setup and deployment. It also includes a suite of unit tests for validating functionality.
 
